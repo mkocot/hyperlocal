@@ -9,7 +9,7 @@ keywords = ["hyper", "unix", "sockets", "http"]
 license = "MIT"
 
 [features]
-default = ["external_unix_socket"]
+default = ["external_unix_socket", "hyper/default"]
 external_unix_socket = ["unix_socket"]
 
 [dependencies]
