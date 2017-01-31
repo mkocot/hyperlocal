@@ -5,7 +5,7 @@
 //! for how to configure hyper servers
 
 extern crate hyper;
-#[cfg(external_unix_socket)]
+#[cfg(feature = "external_unix_socket")]
 extern crate unix_socket;
 extern crate url;
 extern crate rustc_serialize;
